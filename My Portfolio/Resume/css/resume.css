@@ -3,15 +3,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: #405C54;
 }
-img{
-    float: left;
-    padding-right: 10px;
-    border-radius: 150px;
-    margin: 0 5rem;
-}
+
 .header{
     margin: 5rem;
-
+    display: flex;
+    flex-basis: 40%;
+    justify-content: space-between;
+}
+.header img{
+    margin-left: 10rem;
+    border-radius: 100px;
 }
 .header li{
     display: block;
@@ -32,7 +33,8 @@ img{
 #main {
     background-color: #EDEDED;
     border: 5px double darkgrey;
-    margin: 0;
+    margin: 0 auto;
+    width: 80%;
     padding: 0;
 }
 .basicInfo{
