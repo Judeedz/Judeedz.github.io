@@ -1,0 +1,94 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 2rem 4rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+.rightheader{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-left: 1rem;
+}
+.leftheader{
+    float: left;
+}
+.rightheader h1{
+    color: pink;
+    font-size: 3rem; 
+    margin-bottom: 0;
+}
+.rightheader p{
+    margin-top: 0;
+}
+nav {
+    border-top: 2px solid pink;
+    border-bottom: 2px solid pink;
+}
+nav ul{
+    margin: 0.5rem;
+    text-align: center;
+}
+nav li{
+    display: inline-flex;
+    margin: 0 1rem;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+header{
+    display: flex;
+    flex-flow: row nowrap;  
+    justify-content: center;
+}
+section{
+    margin-bottom: 3px;
+    border-bottom: 1px solid pink;
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    border-top: 2px double pink;
+}
+footer ul{
+    padding: 0 10px;
+}
+footer li{
+    display: inline;
+    justify-content:space-around;
+}
+article img{
+    margin: 0 1rem 2rem 0;
+    float: left;
+    border-radius: 1rem;
+ 
+}
+article h2{
+    margin-top: 2rem;
+}
+article:after {
+    content: "";
+    display: table;
+    clear: both; 
+}
